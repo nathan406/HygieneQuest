@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hygiene Quest - Loading</title>
+        <link href="img/protector-quest-logo.png" rel="icon">
+                
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&display=swap" rel="stylesheet">
+
+        <link href="style.css" rel="stylesheet">
+
+        <style>
+            .animation-center{  
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .loading-text{
+                display: block;
+                margin: 0 auto;
+                text-align: center;
+                color: rgb(25, 1, 183);
+                top: -20px;
+                position: relative;
+                font-family: 'Fredoka One', cursive;
+                font-style: italic; 
+            }
+            body{
+                background-color:rgb(208, 252, 180); 
+            }
+
+            h1{
+                color:rgb(53, 26, 230);
+                font-size: 30px;
+                font-family: 'Fredoka One', cursive;
+            }
+
+            p{
+                font-family: 'Open Sans', sans-serif;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <div class="animation-center">
+                <div style="display:block;">
+                    <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_AQ3M8U.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px; padding-top: 100px;"  loop autoplay></lottie-player>
+                </div>
+    
+            </div>
+            <div class="loading-text">Searching the world... Please Wait :-) </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+        <script>
+            setTimeout(myFunction, 5500);
+
+            function myFunction(){
+            window.location.href = "home.html";
+            }
+        </script>
+    </body>
+</html>

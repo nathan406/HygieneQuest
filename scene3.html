@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Hygiene Quest - Peter's Quest</title>
+        <link href="img/protector-quest-logo.png" rel="icon">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            nav{
+            color:rgb(53, 26, 230);
+            font-size: 20px;
+            font-family: 'Fredoka One', cursive;
+            padding: 30px;
+            }
+        </style>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="home.html">Hygiene Quest</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="scene1.html">Mark Smith's Quest</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="scene2.html">Mary's Quest</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="scene3.html">Peter's Quest <span class="sr-only">(current)</span></a>
+                </li>            
+            </div>
+        </nav>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Peter's Quest</h1>
+
+            <!-- part 1: introduce narrator -->
+            <div id="part-1">
+                <div class="row">
+                    <div class="col-4">
+                        <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_rudn2nuj.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
+                    </div>
+            
+                    <div class="col-8">
+                        <p class="robot-speech" style="margin-top: 20%;">
+                            hello! My name is robbie. do you remember me from quest 1? I will be your narrator for quest 3! In this quest, your main goal is to help our main character make the best choice to protect himself from the virus!
+                            
+                            <span><a href="#part-2" class="btn btn-secondary btn-sm btn-next-1" role="button">next</a></span>
+                    
+                        </p>
+                    
+                    </div>
+                </div>
+            </div>
+        
+            <!-- part 2: introduce character -->
+            <div id="part-2">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="robot-speech">
+                            Now, let me introduce you to the main character!
+                        </p>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col-4">
+                        <lottie-player src="https://assets10.lottiefiles.com/private_files/lf30_dwnpjl1l.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
+                    </div>
+        
+                    <div class="col-8" style="margin-top: 10%;">
+                        <p class="robot-speech">
+                            Presenting our main character, Peter. Help him make good choices.<br>
+                            So the he can inculcate <strong>good habits!</strong>
+                        </p>
+                    
+                        <p class="robot-speech">
+                            <!-- Change the time travel to another name like rocket -->
+                            <span>
+                                <a href="#time-travel" class="btn btn-secondary btn-sm btn-next-2" role="button">Lets Go!</a>
+                            </span>
+                        </p>
+            
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col-12">
+                        <div class="time-travel-anim" id="time-travel"></div>
+                </div>
+              
+            </div>
+        
+            <!-- part 3: Avoid touching your face -->
+            <!-- Change needed -->
+            <div id="part-3">
+
+                <!-- (1) did you know? talk about local cases -->
+                <div class="row">
+                    <div class="col-12">
+                        <p class="robot-speech-facts" style="margin-top: 20%;">
+                             DID YOU KNOW? <br><br>
+                            <!-- Total Confirmed cases (singapore): <span class="facts-1-total"></span><br>
+                            Total Deaths (singapore): <span class="facts-1-deaths"></span><br>
+                            Total Recoveries (singapore): <span class="facts-1-recoveries"></span><br>
+                            Total Active Cases (singapore): <span class="facts-1-active"></span><br>
+                            Last Updated: <span class="facts-1-update"></span><br>  -->
+
+                            Pregnant women are extremely vulnerable to malaria. If the disease is contracted during pregnancy, it can be passed to the infant or result in low birth weight, which decreases the baby’s chance of survival
+                        </p>
+                    </div>
+                </div>
+                            
+                <div class="row">
+                    <div class="col-12">
+                        <div class="question-pt3-1">
+                            <p class="robot-speech">
+                                <span>First Scenario! <a href="#text-pt3-1" class="btn btn-secondary btn-sm btn-pt3-1" role="button">Next</a></span>  
+                            </p>
+                        </div>
+
+                        <div id="text-pt3-1"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="part-3-2">
+                <div class="row">
+                    <div class="col-4">
+                            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_8paygygk.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
+                        </div>
+                
+                        <div class="col-8">
+                            <p class="robot-speech" style="margin-top: 20%;">
+                                What should Peter use to scratch his Face?<br>
+                
+                                <a href="#pt3-consequence" class="btn btn-secondary btn-sm btn-pt3-tissue" role="button">Tissue</a>
+                                <a href="#pt3-consequence" class="btn btn-secondary btn-sm btn-pt3-scratch" role="button">Hand</a>
+                            </p>
+                        </div>
+                    </div>
+            
+                </div>
+        
+                <div class="row">
+                    <div class="col-12">
+                        <div id="pt3-consequence"></div>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col-12">
+                        <div id="pt3-conclusion"></div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- part 4: Avoid contact with others-->
+            <!-- Change needed -->
+            <div id="part-4">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="question-pt4-1">
+                            <p class="robot-speech">
+                                <span>Next Scenario! <a href="#text-pt4-1" class="btn btn-secondary btn-sm btn-pt4-1" role="button">Next</a></span>  
+                            </p>
+                        </div>
+
+                        <div id="text-pt4-1"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="part-4-2">
+                <div class="row">
+                    <div class="col-4">
+                            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_8paygygk.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
+                        </div>
+                
+                        <div class="col-8">
+                            <p class="robot-speech" style="margin-top: 20%;">
+                                What should Peter do?<br>
+                
+                                <a href="#pt4-consequence" class="btn btn-secondary btn-sm btn-pt4-move" role="button">Be 2 meter Apart</a>
+                                <a href="#pt4-consequence" class="btn btn-secondary btn-sm btn-pt4-close" role="button">Move Closer</a>
+                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col-12">
+                        <div id="pt4-consequence"></div>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col-12">
+                        <div id="pt4-conclusion"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- part 5: Disposal of used tissue immediately-->
+            <!-- Change needed -->
+            <div id="part-5">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="question-pt5-1">
+                            <p class="robot-speech">
+                                <span>Next Scenario! <a href="#text-pt5-1" class="btn btn-secondary btn-sm btn-pt5-1" role="button">Next</a></span>  
+                            </p>
+                        </div>
+
+                        <div id="text-pt5-1"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="part-5-2">
+                <div class="row">
+                    <div class="col-4">
+                            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_8paygygk.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
+                        </div>
+                
+                        <div class="col-8">
+                            <p class="robot-speech" style="margin-top: 20%;">
+                                What should Peter do with the Tissue?<br>
+                
+                                <a href="#pt5-consequence" class="btn btn-secondary btn-sm btn-pt5-throw" role="button">Throw Away</a>
+                                <a href="#pt5-consequence" class="btn btn-secondary btn-sm btn-pt5-keep" role="button">Keep</a>
+                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col-12">
+                        <div id="pt5-consequence"></div>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col-12">
+                        <div id="pt5-conclusion"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- part 6: Not to go near live animals, poultry and animals-->
+            <!-- Change needed -->
+            <div id="part-6">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="question-pt6-1">
+                            <p class="robot-speech">
+                                <span>Next Scenario! <a href="#text-pt6-1" class="btn btn-secondary btn-sm btn-pt6-1" role="button">Next</a></span>  
+                            </p>
+                        </div>
+
+                        <div id="text-pt6-1"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="part-6-2">
+                <div class="row">
+                    <div class="col-4">
+                            <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_8paygygk.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
+                        </div>
+                
+                        <div class="col-8">
+                            <p class="robot-speech" style="margin-top: 20%;">
+                                What should Peter do?<br>
+                
+                                <a href="#pt6-consequence" class="btn btn-secondary btn-sm btn-pt6-go" role="button">Go Near the Bird</a>
+                                <a href="#pt6-consequence" class="btn btn-secondary btn-sm btn-pt6-no" role="button">Move Away</a>
+                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col-12">
+                        <div id="pt6-consequence"></div>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col-12">
+                        <div id="pt6-conclusion"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- part 7: Which mask is worn correctly?-->
+            <!-- Change needed -->
+            <div id="part-7">
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="question-pt7-1">
+                            <p class="robot-speech">
+                                <span>Next Scenario! <a href="#text-pt7-1" class="btn btn-secondary btn-sm btn-pt7-1" role="button">Next</a></span>  
+                            </p>
+                        </div>
+
+                        <div id="text-pt7-1"></div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="part-7-2">
+                <div class="row">
+                    <div class="col-4">
+                            <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_8paygygk.json"  background="transparent"  speed="1"  style="width: 100%; height: 1;"  loop  autoplay></lottie-player>
+                        </div>
+                
+                        <div class="col-8">
+                            <p class="robot-speech" style="margin-top: 20%;">
+                                Help Peter Choose the <strong>Correct Mask</strong><br>
+                
+                                <a href="#pt7-consequence" class="btn btn-secondary btn-sm btn-pt7-wrong" role="button">
+                                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                                    <lottie-player src="https://assets5.lottiefiles.com/private_files/lf30_xBEL25.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+                                </a>
+                                <a href="#pt7-consequence" class="btn btn-secondary btn-sm btn-pt7-correct" role="button">
+                                    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                                    <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_mLTkRp.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+                                </a>
+                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col-12">
+                        <div id="pt7-consequence"></div>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col-12">
+                        <div id="pt7-conclusion"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- part 8 (last) -->
+        <div id="part-8">
+            <div class="row">
+                <!-- <div class="col-12">
+                    <p class="robot-speech">As a recap,</p>
+                    <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_LCtDAM.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
+                </div> -->
+                <!-- <div class="col-4">
+                    <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_rudn2nuj.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;" autoplay loop  ></lottie-player> -->
+                </div>
+
+                <div class="col-8">
+                    <p class="robot-speech" style="margin-top: 20%;">
+                        Well I guess this is it :-( You have completed all the quests. Well done for protecting yourself and everyone around you!<br><br>
+
+                        <a href="home.html" class="btn btn-primary btn-sm" role="button">Home</a>
+                        <a href="https://www.who.int/news-room/fact-sheets/detail/malaria" class="btn btn-primary btn-sm" role="button">Read More</a>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+          
+        <!-- lotties -->
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        
+        <!-- own js files -->
+        <script src="js/scene3/scene3Main.js"></script>
+        <script src="js/scene3/scene3Api.js"></script>
+
+        <script src="js/scene3/scene3Part3.js"></script>
+        <script src="js/scene3/scene3Part3-2.js"></script>
+
+        <script src="js/scene3/scene3Part4.js"></script>
+        <script src="js/scene3/scene3Part4-2.js"></script>
+
+        <script src="js/scene3/scene3Part5.js"></script>
+        <script src="js/scene3/scene3Part5-2.js"></script>
+
+        <script src="js/scene3/scene3Part6.js"></script>
+        <script src="js/scene3/scene3Part6-2.js"></script>
+
+        <script src="js/scene3/scene3Part7.js"></script>
+        <script src="js/scene3/scene3Part7-2.js"></script>
+
+        <script>
+            
+        </script>
+    </body>
+</html>

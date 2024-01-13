@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Hygiene Quest - Mark Smith's Quest</title>
+  <link href="img/protector-quest-logo.png" rel="icon">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+	 crossorigin="anonymous">
+   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+   <link rel="stylesheet" href="style.css">
+  <style>
+    nav{
+    color:rgb(53, 26, 230);
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+    padding: 30px;
+    }
+  </style>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="home.html">Hygiene Quest</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+            <a class="nav-link" href="home.html">Home</a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="scene1.html">Mark Smith's Quest</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="scene2.html">Mary's Quest</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="scene3.html">Peter's Quest</a>
+        </li>            
+    </div>
+  </nav>
+</head>
+
+<body>
+	<div class="container">
+    <h1>Mark Smith's Quest</h1>
+
+		<!-- part 1: introduce narrator -->
+		<div id="part-1">
+			<div class="row">
+				<div class="col-4">
+					<lottie-player src="https://assets7.lottiefiles.com/packages/lf20_rudn2nuj.json" background="transparent" speed="1" style="width: 100%; height: 100%;"
+					 autoplay></lottie-player>
+				</div>
+
+				<div class="col-8">
+					<p class="robot-speech" style="margin-top: 20%;">
+						Hello! my name is Jack. I will be your narrator for quest 1! in this quest, we will be busting myths!
+
+						<span><a href="#part-2" class="btn btn-secondary btn-sm btn-next-1" role="button">next</a></span>
+      
+          </p>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- part 2: introduce character -->
+    <div id="part-2">
+      <div class="row">
+        <div class="col-12">
+          <p class="robot-speech">
+            now, let me introduce you to the main character!
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-4">
+          <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_x9puwsf6.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
+        </div>
+
+        <div class="col-8" style="margin-top: 10%;">
+          <p class="robot-speech">
+            presenting our main character Mark Smith!
+          </p>
+
+          <p class="robot-speech">
+          lets get started!
+          
+          <span><a href="#part-3" class="btn btn-secondary btn-sm btn-next-2" role="button">next</a></span>
+
+          </p>
+
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- part 3: (ans: Myth) Fact: Vitamin and mineral supplements cannot cure Malaria  -->
+    <div id="part-3">
+      <div class="row">
+        <div class="col-4">
+          <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_8paygygk.json" background="transparent"  speed="1"  style="width: 100%; height: 100%;" loop autoplay></lottie-player>
+        </div>
+
+        <div class="col-8">
+          <p class="robot-speech" style="margin-top: 20%;">
+            Soo Ho should eat a lot of vitamin mineral supplements so that he will not get Malaria?<br>
+
+            <a href="#pt3-conclusion" class="btn btn-success btn-sm btn-pt3-fact" role="button">Fact</a>
+            <a href="#pt3-conclusion" class="btn btn-danger btn-sm btn-pt3-myth" role="button">Myth</a>
+
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div id="pt3-conclusion"></div> 
+        </div>
+      </div>
+        
+    </div>
+      
+    </div>
+
+
+    <!-- part 4: (ans: Myth) Fact: Water or swimming does not transmit the Malaria virus -->
+    <div id="part-4">
+      <div class="row">
+        <div class="col-4">
+            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_8paygygk.json" background="transparent"  speed="1"  style="width: 100%; height: 100%;" loop autoplay></lottie-player>
+        </div>
+
+        <div class="col-8">
+          <p class="robot-speech" style="margin-top: 20%;">
+            Mark Smith's mom told him to not swim because he might get infected with the Malaria virus.<br>
+
+            <a href="#pt4-conclusion" class="btn btn-success btn-sm btn-pt4-fact" role="button">Fact</a>
+            <a href="#pt4-conclusion" class="btn btn-danger btn-sm btn-pt4-myth" role="button">Myth</a>
+
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div id="pt4-conclusion"></div> 
+        </div>
+      </div>
+    </div>
+
+
+    <!-- part 5: (ans: Fact) Fact: People should NOT wear masks while exercising -->
+    <div id="part-5">
+      <div class="row">
+        <div class="col-4">
+          <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_8paygygk.json" background="transparent"  speed="1"  style="width: 100%; height: 100%;" loop autoplay></lottie-player>
+        </div>
+
+        <div class="col-8">
+          <p class="robot-speech" style="margin-top: 20%;">
+            After drinking 3 bottles of bubble tea, Mark Smith felt like he should go for a run. His sister told him that people should NOT wear masks while exercising.<br>
+
+            <a href="#pt5-conclusion" class="btn btn-success btn-sm btn-pt5-fact" role="button">Fact</a>
+            <a href="#pt5-conclusion" class="btn btn-danger btn-sm btn-pt5-myth" role="button">Myth</a>
+
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div id="pt5-conclusion"></div> 
+        </div>
+      </div>
+
+    </div>
+    
+    <!-- part 6: (ans: Myth) Fact: Most people who get Malaria recover from it. -->
+    <div id="part-6">
+      <div class="row">
+        <div class="col-4">
+            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_8paygygk.json" background="transparent"  speed="1"  style="width: 100%; height: 100%;" loop autoplay></lottie-player>
+        </div>
+
+        <div class="col-8">
+          <p class="robot-speech" style="margin-top: 20%;">
+            Malaria is very deadly and only a few people people who get Malaria recover from it.<br>
+
+            <a href="#pt6-conclusion" class="btn btn-success btn-sm btn-pt6-fact" role="button">Fact</a>
+            <a href="#pt6-conclusion" class="btn btn-danger btn-sm btn-pt6-myth" role="button">Myth</a>
+
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div id="pt6-conclusion"></div> 
+        </div>
+      </div>
+
+    </div>
+
+  
+
+    <!-- part 7: (ans: Myth) Fact: Drinking alcohol does not protect you against Malaria and can be dangerous -->
+    <div id="part-7">
+      <div class="row">
+        <div class="col-4">
+            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_8paygygk.json" background="transparent"  speed="1"  style="width: 100%; height: 100%;" loop autoplay></lottie-player>
+        </div>
+
+        <div class="col-8">
+          <p class="robot-speech" style="margin-top: 20%;">
+            Drinking alcohol can protect you against Malaria.<br>
+
+            <a href="#pt7-conclusion" class="btn btn-success btn-sm btn-pt7-fact" role="button">Fact</a>
+            <a href="#pt7-conclusion" class="btn btn-danger btn-sm btn-pt7-myth" role="button">Myth</a>
+
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div id="pt7-conclusion"></div> 
+        </div>
+      </div>
+
+    </div>
+
+    <!-- part 8: (ans: Myth) Fact: Thermal scanners CANNOT detect Malaria -->
+    <div id="part-8">
+      <div class="row">
+        <div class="col-4">
+            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_8paygygk.json" background="transparent"  speed="1"  style="width: 100%; height: 100%;" loop autoplay></lottie-player>
+        </div>
+
+        <div class="col-8">
+          <p class="robot-speech" style="margin-top: 20%;">
+            Mark Smith went to the mall to get bubble tea. His friend told him the thermal scanners can detect Malaria so he should not worry as he can know if he has the virus or not.<br>
+
+            <a href="#pt8-conclusion" class="btn btn-success btn-sm btn-pt8-fact" role="button">Fact</a>
+            <a href="#pt8-conclusion" class="btn btn-danger btn-sm btn-pt8-myth" role="button">Myth</a>
+
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div id="pt8-conclusion"></div> 
+        </div>
+      </div>
+
+    </div>
+
+    
+    <!-- part 9 (last) -->
+    <div id="part-9">
+      <div class="row">
+        <div class="col-4">
+            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_rudn2nuj.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;" autoplay></lottie-player>
+        </div>
+
+        <div class="col-8">
+          <p class="robot-speech" style="margin-top: 20%;">
+            Well I guess this is it :-( See you in the next quest!<br>
+
+            <a href="scene2.html" class="btn btn-primary btn-sm" role="button">Mary's Quest</a>
+            <a href="home.html" class="btn btn-primary btn-sm" role="button">Home</a>
+            <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters" class="btn btn-primary btn-sm" role="button">Read More</a>
+
+          </p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+  <!-- lotties -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+  <!-- own js files -->
+  <script src="js/scene1/scene1Main.js"></script>
+  <script src="js/scene1/scene1Part3.js"></script>
+  <script src="js/scene1/scene1Part4.js"></script>
+  <script src="js/scene1/scene1Part5.js"></script>
+  <script src="js/scene1/scene1Part6.js"></script>
+  <script src="js/scene1/scene1Part7.js"></script>
+  <script src="js/scene1/scene1Part8.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+body{
+background-color: #98F559;
+}
+
+h1{
+color: #1901B7;
+font-family: 'Fredoka One', cursive;
+text-align: center;
+padding: 10px;
+margin: 10px;
+}
+
+p{
+font-family: 'Open Sans', sans-serif;
+}
+
+.robot-speech{
+font-family: monospace;
+text-align: center;
+border-radius: 25px;
+padding: 10px;
+background: white;
+margin: 20px;
+}
+
+.robot-speech-facts{
+font-family: monospace;
+text-align: center;
+border-radius: 25px;
+padding: 10px;
+background: rgb(243, 215, 162);
+margin: 20px;
+}
+
+.robot-speech-correct {
+font-family: monospace;
+text-align: center;
+border-radius: 25px;
+padding: 10px;
+background: white;
+margin: 20px;
+color: green;
+}
+
+.robot-speech-wrong {
+font-family: monospace;
+text-align: center;
+border-radius: 25px;
+padding: 10px;
+background: white;
+margin: 20px;
+color: red;
+}
+
+.row{
+margin:5px;
+}
+
+.white-border{
+border-radius: 25px;
+background: white;
+}
+
+a{
+margin: 5px;
+}
